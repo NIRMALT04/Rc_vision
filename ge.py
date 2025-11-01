@@ -4,7 +4,7 @@ from google import genai
 from google.genai.errors import ServerError, APIError
 
 # Initialize Gemini client
-client = genai.Client(api_key="AIzaSyAgvzUpebcc-UFxcKjwWcdc7sjGNdVMvP8")
+client = genai.Client(api_key="YOUR_KEY")
 
 def capture_frame(filename="frame.jpg"):
     """Capture one frame from the webcam and save it."""
