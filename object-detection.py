@@ -7,7 +7,7 @@ import json
 import numpy as np
 import os
 
-client = genai.Client(api_key="AIzaSyAgvzUpebcc-UFxcKjwWcdc7sjGNdVMvP8" )
+client = genai.Client(api_key="YOUR_KEY" )
 
 def parse_json(json_output: str):
   # Parsing out the markdown fencing
