@@ -199,7 +199,7 @@ with col1:
                     from google.genai.errors import ServerError, APIError
                     import time
                     
-                    client = genai.Client(api_key="AIzaSyAgvzUpebcc-UFxcKjwWcdc7sjGNdVMvP8")
+                    client = genai.Client(api_key="YOUR_KEY")
                     
                     with open(img_path, "rb") as img_file:
                         image_bytes = img_file.read()
